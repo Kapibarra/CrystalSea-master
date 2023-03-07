@@ -1,0 +1,61 @@
+{
+    "name": "afphotography",
+    "version": "1.0.0",
+    "description": "portfolio site for AF",
+    "main": "webpack.config.js",
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "animate.css": "^4.1.1",
+        "autoprefixer": "10.4.5",
+        "bootstrap": "^3.4.1",
+        "imask": "^6.1.0",
+        "inputmask": "^5.0.6",
+        "just-validate": "^1.5.0",
+        "lightgallery.js": "^1.4.0",
+        "normalize.css": "^8.0.1",
+        "unsplash-js": "^7.0.4",
+        "vanilla-tilt": "^1.7.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.13.8",
+        "@babel/node": "^7.13.0",
+        "@babel/preset-env": "^7.13.9",
+        "babel-eslint": "^8.2.6",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^3.0.0",
+        "cross-env": "^7.0.3",
+        "css-loader": "^5.1.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.2.0",
+        "image-webpack-loader": "^8.1.0",
+        "mini-css-extract-plugin": "^1.6.2",
+        "sass": "^1.58.3",
+        "sass-loader": "^11.1.1",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack serve",
+        "build": "cross-env NODE_ENV=production webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kapibarra/AFPhotography.git"
+    },
+    "keywords": [
+        "html",
+        "css",
+        "js"
+    ],
+    "author": "Novikov Nikita <nikita.nov2016@yandex.ru>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kapibarra/AFPhotography/issues"
+    },
+    "homepage": "https://github.com/Kapibarra/AFPhotography#readme"
+}
