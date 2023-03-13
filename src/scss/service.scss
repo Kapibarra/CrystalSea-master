@@ -139,9 +139,7 @@
       font-size: 14px;
       display: flex;
       align-items: center;
-      justify-content: center;
       margin-right: -4px;
-      text-align: center;
       box-sizing: border-box;
       padding: 5px 5px;
       transition: all 0.3s ease-in-out;
@@ -334,12 +332,11 @@ label:after {
 .service__card {
   box-sizing: border-box;
   width: 100%;
-  max-width: 375px;
   height: fit-content;
   margin: 30px;
-  padding: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: $white;
   border-radius: 15px;
   box-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019),
@@ -356,18 +353,20 @@ label:after {
     margin-bottom: 15px;
   }
   & ul {
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 0;
     & li {
       font-size: 14px;
       line-height: 32px;
       font-weight: 500;
+      text-align: center;
+      justify-content: center;
     }
   }
   & p {
     margin: 0 auto;
-    text-align: center;
     font-size: 14px;
     padding: 5px;
     line-height: 24px;
